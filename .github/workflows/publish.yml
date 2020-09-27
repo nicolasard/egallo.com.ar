@@ -39,5 +39,5 @@ jobs:
         # FTP password
         password: ${{ secrets.FTP_PASSWORD }}
         # Force SSL encryption
-        localDir: ./egallo.com.ar/public_html
+        localDir: ./public_html/
         # Remote directory
