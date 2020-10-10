@@ -26,6 +26,6 @@ jobs:
     - name: Install FTP client
       run: sudo apt-get install lftp
     - name: Copy via FTP
-      run: lftp -e "mirror -R /home/runner/work/egallo.com.ar/egallo.com.ar/public_html/ /" -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_HOST }}
+      run: lftp -e "mirror -R /home/runner/work/egallo.com.ar/egallo.com.ar/public_html/ /public_html/" -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_HOST }}
 
  
