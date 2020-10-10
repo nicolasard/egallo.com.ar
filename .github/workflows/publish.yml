@@ -18,9 +18,9 @@ jobs:
     - name: Greeting
       run: echo "Deploying website..."
     - name: My location
-      run: echo "pwd"
+      run: pwd
     - name: My location
-      run: echo "ls"
+      run: ls
     - name: Install FTP client
       run: sudo apt-get install lftp
     - name: Copy via FTP
