@@ -17,6 +17,8 @@ jobs:
     # Runs a single command using the runners shell
     - name: Greeting
       run: echo "Deploying website..."
+    - name: Checkout code
+      uses: actions/checkout@v2
     - name: My location
       run: pwd
     - name: My location
@@ -24,6 +26,6 @@ jobs:
     - name: Install FTP client
       run: sudo apt-get install lftp
     - name: Copy via FTP
-      run: lftp -e "mirror -R /home/runner/work/egallo.com.ar/egallo.com.ar/ /" -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_HOST }}
+      run: lftp -e "mirror -R /home/runner/work/egallo.com.ar/egallo.com.ar/public_html/ /" -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_HOST }}
 
  
