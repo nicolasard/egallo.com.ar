@@ -18,4 +18,8 @@ jobs:
     - name: Greeting
       run: echo "Deploying website..."
     - name: Install FTP client
-      run: sudo apt-get install ftp
+      run: sudo apt-get install lftp
+    - name: Copy via FTP
+      run: lftp -e "mirror -R ./public_html/ /" -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_HOST }}
+
+ 
