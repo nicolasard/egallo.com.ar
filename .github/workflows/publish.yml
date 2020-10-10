@@ -17,15 +17,5 @@ jobs:
     # Runs a single command using the runners shell
     - name: Greeting
       run: echo "Deploying website..."
-    - name: ftp-action
-      uses: sebastianpopp/ftp-action@v2.0.0
-      with:
-        # FTP host
-        host: ${{ secrets.FTP_HOST }}
-        # FTP user
-        user: ${{ secrets.FTP_USER }}
-        # FTP password
-        password: ${{ secrets.FTP_PASSWORD }}
-        # Force SSL encryption
-        localDir: ./public_html/
-        # Remote directory
+    - name: Install FTP client
+      run: sudo apt-get install ftp
