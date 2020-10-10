@@ -17,6 +17,10 @@ jobs:
     # Runs a single command using the runners shell
     - name: Greeting
       run: echo "Deploying website..."
+    - name: My location
+      run: echo "pwd"
+    - name: My location
+      run: echo "ls"
     - name: Install FTP client
       run: sudo apt-get install lftp
     - name: Copy via FTP
