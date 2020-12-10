@@ -11,8 +11,16 @@
     <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
     <script>
       new Docute({
-        target: '#docute'
+        target: '#docute',
+		  sidebar: [
+    // A sidebar item, with child links
+    {
+      title: 'VPN Access',
+      link: '/vpn/'
+    }	
+  ]
       })
+
     </script>
   </body>
 </html>
