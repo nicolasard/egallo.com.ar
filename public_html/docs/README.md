@@ -9,12 +9,20 @@ Aca vas a encontrar documentacion variada del estudio relativa a sistemas.
 
 El mismo consiste en un escritorio remoto a una VM (Virtual Machine) en la que esta instalada el sistema bejerman (bejerman.egallo.com.ar). 
 
-:warning: Para ver como conectarse a la VPN seguí el documento http://www.egallo.com.ar/docs/#/vpn/ 
+Para ver como conectarse a la VPN seguí el documento http://www.egallo.com.ar/docs/#/vpn/ 
+
+##### Nacional Soft
+
+Sistema contable nacional soft, hosteamos el servidor de nacional soft y la base de datos en una VM (Virtual Machine) en la red de Digital Ocean.
+
+Para ver como usar Nacional soft seguí el documento http://www.egallo.com.ar/docs/#/nacional/ 
+
+Para ver como conectarse a la VPN seguí el documento http://www.egallo.com.ar/docs/#/vpn/ 
 
 ##### Shared disk
 
-<TODO>
-
+TODO
+  
 
 #### Servicios de sistemas
 
