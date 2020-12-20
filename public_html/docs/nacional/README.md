@@ -8,7 +8,7 @@ Hay dos maneras de instalar Nacional software en su PC
 
 Esto fue testeado en windows 10.
 
-2) Descargar el archivo [instalar_nacional.bat](http://www.egallo.com.ar/docs/nacional/instalar_nacional.bat) y ejecutarlo.
+1) Descargar el archivo [instalar_nacional.bat](http://www.egallo.com.ar/docs/nacional/instalar_nacional.bat) y ejecutarlo.
 
 #### Instalacion Manual
 
