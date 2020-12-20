@@ -1,6 +1,6 @@
 ### Disco compartido.
 
-1) Para acceder al disco compartido solo tiene que estar conectado a la VPN
+1) Para acceder al disco compartido solo tiene que estar conectado a la VPN (ZeroTier)
 
 2) Descargar el archivo [mapear_disco.bat](http://www.egallo.com.ar/docs/shared/mapear_disco.bat) y ejecutarlo 
 

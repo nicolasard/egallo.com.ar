@@ -13,4 +13,6 @@ echo Mapeando unidades de red del estudio
 echo -------------------------------------------------------------
 net use Z: "\\192.168.193.112\publico"  /persistent:yes
 
+echo Creando acceso directo en el escritorio
+
 PAUSE
