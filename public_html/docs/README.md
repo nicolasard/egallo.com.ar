@@ -3,7 +3,7 @@
 
 Aca vas a encontrar documentacion variada del estudio relativa a sistemas.
 
-#### Servicios disponibles dentro de la VPN del estudio
+#### Servicios disponibles dentro de la VPN (Virtual Private Network) del estudio
 
 ##### Bejerman
 
