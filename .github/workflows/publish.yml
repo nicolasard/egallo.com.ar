@@ -19,9 +19,14 @@ jobs:
       run: echo "Deploying website..."
     - name: Checkout code
       uses: actions/checkout@v2
+    - name: Bump version and push tag
+      uses: ChloePlanet/github-tag-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        WITH_V: true
     - name: My location
       run: pwd
-    - name: My location
+    - name: Files here
       run: ls
     - name: Install FTP client
       run: sudo apt-get install lftp
