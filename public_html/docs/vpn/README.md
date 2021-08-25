@@ -41,3 +41,5 @@ Se cargara una ventana similar a la siguiente donde se indica que esta conectado
 ##### Issue 1
 Si por algun motivo esta conectado a la VPN pero asi y todo no puede acceder a algun recurso y el ping no responde. Elimine el directorio C:\ProgramData\ZeroTier\One\peers.d y reinicie el servicio de ZeroTier.
 
+Nota: El directorio C:\ProgramData esta oculto por default y necesita permisos de administrador para editar.
+
