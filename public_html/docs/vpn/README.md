@@ -35,3 +35,9 @@ En la barra de inicio hacer click en el logo de ZeroTier con el boton derecho y 
 Se cargara una ventana similar a la siguiente donde se indica que esta conectado
 
 ![Step b-1](./vpn/stepb-1.png)
+
+#### Issues conocidos
+
+##### Issue 1
+Si por algun motivo esta conectado a la VPN pero asi y todo no puede acceder a algun recurso y el ping no responde. Elimine el directorio C:\ProgramData\ZeroTier\One\peers.d y reinicie el servicio de ZeroTier.
+
