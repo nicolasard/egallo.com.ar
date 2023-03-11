@@ -31,10 +31,8 @@ jobs:
     - name: Current location and files in the location
       run: pwd && ls
     - name: Install FTP client
-      if: ${{ ! github.event.inputs.dryrun }}
       run: sudo apt-get install lftp
     - name: Copy via FTP
-      if: ${{ ! github.event.inputs.dryrun }}
       run: lftp -e "mirror -R /home/runner/work/egallo.com.ar/egallo.com.ar/public_html/ /public_html/" -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_HOST }}
 
  
